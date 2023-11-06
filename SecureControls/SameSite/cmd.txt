@@ -1,0 +1,4 @@
+export FLASK_APP=samesite.py
+kill -9 $(sudo lsof -t -i:5000)
+python3.8 -m venv myprojectenv
+source myprojectenv/bin/activate
